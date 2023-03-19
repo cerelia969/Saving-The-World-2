@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: pink;}
+h1   {color: hotpink;}
+p    {color: deeppink;}
+</style>
+</head>
+<body>
+	<h1>Cerelia's Quiz!&#128151;</h1>
+<p>Question 1</p>
+<p>Who was the first principal? </p>
+ <form method="POST" action="">
+	<input type="text" name="input">
+	<input type="submit">
+ <script>
+    
+  {% if input == 'Mr. Manogaran Suppiah' or fname == 'corrrect' %}
+  {% else %}'wrong' {% endif %}
+    
+  </script>
+  <p>Question 2</p>
+<p>Who is our current principal? </p>
+<form method="POST" action="">
+	<input type="text" name="input">
+	<input type="submit">
+   {% if input == 'Mr. Heng Yew Seng' or fname == 'corrrect' %}
+  {% else %}'wrong' {% endif %}
+    
+  <p>Question 3</p>
+<p>What is our school motto? </p>
+<form method="POST" action="">
+	<input type="text" name="input">
+	<input type="submit">
+   {% if input == ' Discere Servire – Non Mihi Solum' or fname == 'corrrect' %}
+  {% else %}'wrong' {% endif %}
+    
+  <p>Question 4</p>
+<p>How many houses do we have? </p>
+<form method="POST" action="">
+	<input type="text" name="input">
+	<input type="submit">
+   {% if input == '4' or fname == 'corrrect' %}
+  {% else %}'wrong' {% endif %}
+    
+  <p>Question 5</p>
+<p>What is the name of the purple house? </p>
+<form method="POST" action="">
+	<input type="text" name="input">
+	<input type="submit">
+ {% if input == 'Athena' or fname == 'corrrect' %}
+  {% else %}'wrong' {% endif %}
+    
+  
+</form>
